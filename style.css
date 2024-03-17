@@ -4,25 +4,85 @@ body{
   background-color: #d2dbff;
 }
 
-.header{
-  height: 300px;
-  background-size: cover;
-}
-
-.home-btn {
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #fff;
-  padding: 12px 32px;
-  font-size: 13px;
-  background: transparent;
-  position: relative;
+.home-btn{
+  background-color: rgb(255, 255, 255);
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 10px;
   cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+}
+.contact-btn{
+  background-color: rgb(255, 255, 255);
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+}
+.home-btn:hover{
+  border: 2px solid #009688;
+  background: aqua;
+  transition: 1s;
+}
+.contact-btn:hover{
+  border: 2px solid black;
+    background: aqua;
+    transition: 1s;
+}
+.submit-btn{
+  background-color: rgb(255, 255, 255);
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.submit-btn:hover{
+  border: 2px solid #009688;
+  background: aqua;
+  transition: 1s;
+}
+.contact-us{
+  text-align: center;
+  margin: 50px;
+  
+}
+.contact-col{
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.location{
+  margin-left: 25%;  
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 20px;
+  align-items: center;
 }
 
-.home-btn:hover {
-  border: 1px solid #009688;
-  background: #c5c5c5;
-  transition: 1s;
+.nav-links ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #009688;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
 }
