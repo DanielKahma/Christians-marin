@@ -1,0 +1,28 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #d2dbff;
+}
+
+.header{
+  height: 300px;
+  background-size: cover;
+}
+
+.home-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 32px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.home-btn:hover {
+  border: 1px solid #009688;
+  background: #c5c5c5;
+  transition: 1s;
+}
