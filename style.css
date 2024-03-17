@@ -43,7 +43,7 @@ body{
   margin-left: 10px;
   cursor: pointer;
   font-weight: bold;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .submit-btn:hover{
   border: 2px solid #009688;
@@ -61,20 +61,21 @@ body{
   font-size: 20px;
 }
 .location{
-  margin-left: 25%;  
+  margin-left: 23%;  
 }
 .nav-links ul li {
   list-style: none;
   display: inline-block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-left: 20px;
-  align-items: center;
+  text-align: center;
 }
 
 .nav-links ul li a {
   color: #000000;
   text-decoration: none;
   font-size: 20px;
+  text-align: center;
 }
 
 .nav-links ul li::after {
@@ -85,4 +86,24 @@ body{
   display: block;
   margin: auto;
   transition: 0.5s;
+}
+.text-box{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+.contact-col textarea {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 17px;
+  outline: 2px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  margin-top: 25px;
+}
+.contact-col div h5 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 400;
 }
